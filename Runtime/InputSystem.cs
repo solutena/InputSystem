@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+[DefaultExecutionOrder(-1)]
 public class InputSystem : MonoBehaviour
 {
 	internal static List<InputMap> Prevs { get; private set; } = new();
